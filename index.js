@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 
-app.get('/https://darshilshah03.github.io/pneumonia-detector/', (req,res)=>{
+app.get('/', (req,res)=>{
     res.render('index')
 })
 
